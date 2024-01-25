@@ -160,20 +160,20 @@ h6 {
   --rs-common-placeholder: #484949;
   --rs-common-selection: #1745B3;
   --rs-body-primary: #ffffff;
-  --rs-theme-primary: #00D563;
-  --rs-heading-primary: #00160A;
+  --rs-theme-primary: #00a3d5;
+  --rs-heading-primary: #000016;
   --rs-text-body: #484949;
   --rs-text-primary: #fff;
-  --rs-gray-900: #00160A;
+  --rs-gray-900: #000016;
   --rs-gray-800: #484949;
-  --rs-gray-700: #0D2216;
+  --rs-gray-700: #0d1422;
   --rs-gray-200: #E3E8F4;
   --rs-gray-100: #F9F9F9;
   --rs-shadow-xl: #fff;
   --rs-shadow-l: #fff;
   --rs-shadow-m: #fff;
   --rs-shadow-s: #fff;
-  --rs-border-primary: #00D563;
+  --rs-border-primary: #00a3d5;
   --rs-border-secondary: rgba(72, 73, 73, 0.4);
   /**
   @font weight declaration
@@ -984,7 +984,7 @@ textarea {
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
 }
-.rs-btn:hover svg path[fill="#00160A"] {
+.rs-btn:hover svg path[fill="#000016"] {
   fill: var(--rs-common-white);
 }
 .rs-btn.btn-hover-white::before {
@@ -1618,8 +1618,8 @@ textarea {
   content: "";
   left: 0;
   z-index: -1;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 22, 10, 0.5)), to(#00160A));
-  background: linear-gradient(180deg, rgba(0, 22, 10, 0.5) 0%, #00160A 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 22, 10, 0.5)), to(#000016));
+  background: linear-gradient(180deg, rgba(0, 22, 10, 0.5) 0%, #000016 100%);
 }
 
 .breadcrumb__title {
@@ -7116,7 +7116,7 @@ body .ui-tooltip {
   max-width: 184px;
 }
 .footer__widget:nth-child(3) {
-  max-width: 136px;
+  max-width: 230px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer__widget:nth-child(3) {
@@ -11014,7 +11014,7 @@ body .ui-tooltip {
   -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
 }
-.our-services__item:hover .readmore svg path[fill="#00160A"] {
+.our-services__item:hover .readmore svg path[fill="#000016"] {
   fill: var(--rs-theme-primary);
 }
 .our-services__item-icon {
@@ -11025,7 +11025,7 @@ body .ui-tooltip {
 .our-services__item a:hover, .our-services__item a:hover h4 {
   color: var(--rs-theme-primary);
 }
-.our-services__item a:hover svg path[fill="#00160A"], .our-services__item a:hover h4 svg path[fill="#00160A"] {
+.our-services__item a:hover svg path[fill="#000016"], .our-services__item a:hover h4 svg path[fill="#000016"] {
   fill: var(--rs-theme-primary);
 }
 .our-services__item .readmore {
